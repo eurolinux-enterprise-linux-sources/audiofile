@@ -1,7 +1,7 @@
 Summary: A library for accessing various audio file formats
 Name: audiofile
 Version: 0.3.6
-Release: 2%{?dist}
+Release: 4%{?dist}
 Epoch: 1
 License: LGPLv2+ and GPL+ and ASL 2.0
 Group: System Environment/Libraries
@@ -67,6 +67,12 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man3/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1:0.3.6-4
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1:0.3.6-3
+- Mass rebuild 2013-12-27
+
 * Thu Mar 07 2013 Adam Jackson <ajax@redhat.com> 0.3.6-1
 - audiofile 0.3.6
 
